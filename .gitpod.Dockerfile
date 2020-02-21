@@ -3,7 +3,8 @@ FROM gitpod/workspace-full-vnc
 RUN sudo apt-get install zsh \
     && sudo apt-get update \
     && sudo apt-get install -y \
-    tool \                   
+    tool 
+                       
 USER gitpod
 
 
