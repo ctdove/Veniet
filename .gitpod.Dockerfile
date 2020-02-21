@@ -1,5 +1,6 @@
 FROM gitpod/workspace-full-vnc
-                    
+
+RUN sudo apt-get install zsh                    
 USER gitpod
 
 # Install custom tools, runtime, etc. using apt-get
